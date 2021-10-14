@@ -20,10 +20,6 @@ class CommentsViewController: UIViewController {
             self.tableView.reloadData()
         }
     }
-
-    @objc func buttonAction() {
-        print("action")
-    }
 }
 
 // MARK: - UITableViewDelegate
